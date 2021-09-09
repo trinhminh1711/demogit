@@ -1,0 +1,16 @@
+@import "./scss/base/typography.scss";
+@import "./scss/abstract/variables";
+@import "./scss/abstract/mixins";
+@import "./scss/base/reset.scss";
+@import "./scss/base/core.scss";
+@import "./scss/layouts/header.scss";
+@import "./scss/layouts/footer.scss";
+@import "./scss/pages/home.scss";
+@import "./responsive.scss";
+*
+{
+    scroll-padding-top: 100px !important;
+}
+:root {
+    --animate-delay: 0.2s;
+  }
